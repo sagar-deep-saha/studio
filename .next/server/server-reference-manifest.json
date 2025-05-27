@@ -1,17 +1,5 @@
 {
-  "node": {
-    "40946f0743bf96bc64c2f16b7a10d8f0c4b6741658": {
-      "workers": {
-        "app/accounts/page": {
-          "moduleId": "[project]/.next-internal/server/app/accounts/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/categorize-accounts.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/accounts/page": "action-browser"
-      }
-    }
-  },
+  "node": {},
   "edge": {},
   "encryptionKey": "AOklrzELlZV+00AZ40VTjFzPBvWlwbT4co5VcT4LE0o="
 }
