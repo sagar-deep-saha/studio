@@ -273,12 +273,11 @@ export default function AccountListClient() {
             <h3 className="text-xl font-semibold text-foreground">No Accounts Found</h3>
             <p className="text-muted-foreground mt-2 mb-6">
               {searchTerm ? "Try adjusting your search or " : "Get started by "}
-              <DialogTrigger asChild>
-                <Button variant="link" className="p-0 h-auto" onClick={() => setIsDialogOpen(true)}>adding your first account</Button>
-              </DialogTrigger>.
+              <Button variant="link" className="p-0 h-auto" onClick={() => setIsDialogOpen(true)}>adding your first account</Button>.
             </p>
         </div>
       )}
     </div>
   );
 }
+
